@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=77.0.3", "wheel"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "Olivattam"
+version = "0.0.3"
+authors = [
+  { name="Dheena Krishna", email="dheenakrishna2020@gmail.com" },
+]
+description = "A package for extraction of major colors from the Images"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "pillow>=7.0.0"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+
+[project.urls]
+Homepage = "https://github.com/Dheenack/olivattam"
+Issues = "https://github.com/Dhenack/olivattam/issues"
+
+[tool.setuptools]
+license-files = ["LICENSE"]
